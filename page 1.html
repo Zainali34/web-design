@@ -1,0 +1,149 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>TECS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="main-page-cont" class="main">
+        <div class="inner-page">
+            <div class="side-bar-wrapper" id="mySidebar">
+                <img src="logo.png" alt="">
+    
+                    <ul class="orderlists">
+                        <li>
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                              <a href="#">Rooms</a>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-cog" aria-hidden="true"></i></span>
+                              <a href="#">Routines</a>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-chart-bar" aria-hidden="true"></i></span>
+                              <a href="#">Reports</a>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-snowflake" aria-hidden="true"></i></span>
+                              <a href="#">Support</a>
+                        </li>
+                    </ul>
+                    <div id="main">
+                        <a href="javascript:void(0)" class="openbtn" onclick="openNav()"> > </a> 
+                    </div>
+                    <span id="collapse-id" class="action-btn"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> < Collapse </a></span>
+            </div>
+        
+
+        <div class="page-content" >
+                <div class="page-title">
+                    <h3>Rooms</h3>
+                </div>
+                <table class="responsive-table">
+                    <thead>
+                        <tr>
+                            <th>ROOM $</th>
+                            <th>ROOM TYPE</th>
+                            <th># OF ZONES</th>
+                            <th>HEALTH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="border">
+                            <td class="number">215</td>
+                            <td>Veg/Flower</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">216</td>
+                            <td>Clone</td>
+                            <td>2</td>
+                            <td>Needs maintanance</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">217</td>
+                            <td>Veg/Flower</td>
+                            <td>4</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">218</td>
+                            <td>Mother</td>
+                            <td>5</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">219</td>
+                            <td>Nursery</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">220</td>
+                            <td>Veg</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">221</td>
+                            <td>Clone</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">222</td>
+                            <td>Nursery</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">223</td>
+                            <td>Flower</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">224</td>
+                            <td>Clone</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                        <tr id="border">
+                            <td class="number">225</td>
+                            <td>Veg</td>
+                            <td>7</td>
+                            <td>On track</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    </div>
+    <script>
+        function openNav() {
+            var elem = document.getElementById("main-page-cont");
+            elem.classList.remove("main-page-cont");
+            document.getElementById("collapse-id").style.display = "block";
+            document.getElementById("main").style.display = "none";
+        //   document.getElementById("mySidebar").style.width = "20%";
+        //   document.getElementById("main").style.marginRight = "0";
+          
+        }
+        
+        function closeNav() {
+            var elem = document.getElementById("main-page-cont");
+            elem.classList.add("main-page-cont");
+            document.getElementById("collapse-id").style.display = "none";
+            document.getElementById("main").style.display = "block";
+        //   document.getElementById("main").style.marginLeft= "0";          
+
+        }
+        </script>
+</body>
+
+</html>
