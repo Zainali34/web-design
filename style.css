@@ -99,6 +99,7 @@ body{
     width: 70%;
     justify-content: center;
     padding: 30px;
+    display: block;
 }
 .main-page-cont .inner-page .page-content .responsive-table{
     background-color: #ebebe7;
@@ -107,7 +108,7 @@ body{
     justify-content: center;
     padding: 30px;
 }
-.responsive-table th{
+/* .responsive-table th{
     text-align: left;
     font-family: sans-serif;
     font-weight: 700;
@@ -121,15 +122,25 @@ body{
     font-weight: 400;
     font-size: 17px;
     padding: 10px;
-}
+} */
 .responsive-table .number{
     font-weight: bold;
 }
 /* .responsive-table td{
     border: 1px solid black;
 } */
-.responsive-table #border{
+
+.responsive-table .border{
     border: 2px solid red;
+    display: block;
+    border-style: none none solid none;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    
+    width: 177%;
+
 }
 
 
