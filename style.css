@@ -15,6 +15,7 @@ body{
     background-color: #ebebe7 ;
     display: inline-block;
     text-decoration: none;
+    padding-left: 5px;
 }
 .side-bar-wrapper img{
     width: 90%;
@@ -22,13 +23,19 @@ body{
     padding: 13px 10px;
 }
 .main-page-cont .side-bar-wrapper{
-    width: 5%;
+    width: 4%;
 }
 .main-page-cont .page-content{
-    width: 95%;
+    width: 96%;
 }
 .main-page-cont .side-bar-wrapper .orderlists a{
     display: none;
+}
+.main-page-cont .side-bar-wrapper img{
+    width: 249px;
+    background-attachment: fixed;
+    /* padding: 13px 10px; */
+    padding: 11px 10px;
 }
 .orderlists{
     list-style: none;
@@ -60,6 +67,19 @@ body{
     display: inline-block;
     text-decoration: none;
 }
+.open-button{
+    display: block;
+    margin-top: 365px;
+    margin-left: 5px;
+}
+.action-btn{
+    display: block;
+    margin-top: 385px;
+    margin-left: 38px;
+}
+#collapse-id{
+    transition: margin-left .5s linear;
+}
 .page-content{
     background-color: #e5e5e5;
     width: 80%;
@@ -77,6 +97,13 @@ body{
     background-color: #ebebe7;
     border-radius: 5px;
     width: 70%;
+    justify-content: center;
+    padding: 30px;
+}
+.main-page-cont .inner-page .page-content .responsive-table{
+    background-color: #ebebe7;
+    border-radius: 5px;
+    width: 60%;
     justify-content: center;
     padding: 30px;
 }
@@ -147,6 +174,7 @@ body{
     color: white;
     padding: 10px 15px;
     border: none;
+    text-decoration: none;
   }
 
   
